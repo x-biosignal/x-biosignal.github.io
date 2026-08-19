@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>x-biosignal - Open-Source Biosignal Analysis for Rehabilitation Research</title>
+    <meta name="description" content="An open-source ecosystem of 37 R packages for physiological signals, biomechanics, clinical inference, and rehabilitation research." />
+    <meta name="author" content="Yusuke Matsui" />
+    <meta name="keywords" content="biosignal, rehabilitation, EEG, ECG, EMG, EDA, NIRS, motion capture, gait, R, Bioconductor, clinical research, Model Context Protocol, MCP" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="application-name" content="x-biosignal" />
+    <meta name="theme-color" content="#165e83" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23165E83' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2'/%3E%3C/svg%3E" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="Machine-readable x-biosignal guide" />
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Search x-biosignal packages" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="x-biosignal - Open-Source Biosignal Analysis" />
+    <meta property="og:description" content="37 public R packages connecting physiological signals, biomechanics, clinical inference, and rehabilitation reporting." />
+    <meta property="og:url" content="https://x-biosignal.github.io/" />
+    <meta property="og:site_name" content="x-biosignal" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ja_JP" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="x-biosignal - Open-Source Biosignal Analysis" />
+    <meta name="twitter:description" content="37 public R packages for physiological signals and rehabilitation research." />
+    <link rel="canonical" href="https://x-biosignal.github.io/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["SoftwareApplication", "SoftwareSourceCode"],
+      "name": "x-biosignal",
+      "alternateName": "PhysioExperiment ecosystem",
+      "description": "Open-source ecosystem of 37 R packages for physiological signals, biomechanics, clinical inference, and rehabilitation research.",
+      "url": "https://x-biosignal.github.io/",
+      "codeRepository": "https://github.com/x-biosignal",
+      "programmingLanguage": [
+        {"@type": "ComputerLanguage", "name": "R"},
+        {"@type": "ComputerLanguage", "name": "C++"}
+      ],
+      "runtimePlatform": "R (>= 4.2)",
+      "license": "https://opensource.org/licenses/MIT",
+      "author": {"@type": "Person", "name": "Yusuke Matsui"},
+      "keywords": ["biosignal", "rehabilitation", "EEG", "ECG", "EMG", "EDA", "NIRS", "motion capture", "gait", "R", "Bioconductor", "clinical research"],
+      "applicationCategory": "ScientificApplication",
+      "applicationSubCategory": "Biosignal analysis and rehabilitation research",
+      "operatingSystem": "Cross-platform",
+      "isAccessibleForFree": true,
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+      "downloadUrl": "https://x-biosignal.r-universe.dev",
+      "installUrl": "https://x-biosignal.r-universe.dev",
+      "softwareHelp": "https://github.com/x-biosignal/PhysioExperiment/blob/main/SUPPORT.md",
+      "sameAs": [
+        "https://github.com/x-biosignal",
+        "https://github.com/x-biosignal/mcp-server-biosignal",
+        "https://x-biosignal.r-universe.dev"
+      ],
+      "hasPart": [
+        {"@type": "SoftwareSourceCode", "name": "PhysioExperiment", "description": "Umbrella interface and GUI/REST launchers", "codeRepository": "https://github.com/x-biosignal/PhysioExperiment"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioCore", "codeRepository": "https://github.com/x-biosignal/PhysioCore"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioCompliance", "codeRepository": "https://github.com/x-biosignal/PhysioCompliance"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioIO", "codeRepository": "https://github.com/x-biosignal/PhysioIO"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioPreprocess", "codeRepository": "https://github.com/x-biosignal/PhysioPreprocess"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioStream", "codeRepository": "https://github.com/x-biosignal/PhysioStream"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioAnalysis", "codeRepository": "https://github.com/x-biosignal/PhysioAnalysis"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioML", "codeRepository": "https://github.com/x-biosignal/PhysioML"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioNIRS", "codeRepository": "https://github.com/x-biosignal/PhysioNIRS"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioEEG", "codeRepository": "https://github.com/x-biosignal/PhysioEEG"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioEMG", "codeRepository": "https://github.com/x-biosignal/PhysioEMG"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioNeurophys", "codeRepository": "https://github.com/x-biosignal/PhysioNeurophys"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioTrial", "codeRepository": "https://github.com/x-biosignal/PhysioTrial"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioHDEMG", "codeRepository": "https://github.com/x-biosignal/PhysioHDEMG"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioECG", "codeRepository": "https://github.com/x-biosignal/PhysioECG"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioEDA", "codeRepository": "https://github.com/x-biosignal/PhysioEDA"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioCrossModal", "codeRepository": "https://github.com/x-biosignal/PhysioCrossModal"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioMoCap", "codeRepository": "https://github.com/x-biosignal/PhysioMoCap"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioWearable", "codeRepository": "https://github.com/x-biosignal/PhysioWearable"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioOpenSim", "codeRepository": "https://github.com/x-biosignal/PhysioOpenSim"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioMSKNet", "codeRepository": "https://github.com/x-biosignal/PhysioMSKNet"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioAnnotationHub", "codeRepository": "https://github.com/x-biosignal/PhysioAnnotationHub"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioHeadModels", "codeRepository": "https://github.com/x-biosignal/PhysioHeadModels"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioGaitNorm", "codeRepository": "https://github.com/x-biosignal/PhysioGaitNorm"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioDevices", "codeRepository": "https://github.com/x-biosignal/PhysioDevices"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioClinical", "codeRepository": "https://github.com/x-biosignal/PhysioClinical"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioClinStats", "codeRepository": "https://github.com/x-biosignal/PhysioClinStats"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioReport", "codeRepository": "https://github.com/x-biosignal/PhysioReport"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioAppKit", "codeRepository": "https://github.com/x-biosignal/PhysioAppKit"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioRehab", "codeRepository": "https://github.com/x-biosignal/PhysioRehab"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioLake", "codeRepository": "https://github.com/x-biosignal/PhysioLake"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioPipe", "codeRepository": "https://github.com/x-biosignal/PhysioPipe"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioRecipes", "codeRepository": "https://github.com/x-biosignal/PhysioRecipes"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioNetPhysiology", "codeRepository": "https://github.com/x-biosignal/PhysioNetPhysiology"},
+        {"@type": "SoftwareSourceCode", "name": "PoseFixeR", "codeRepository": "https://github.com/x-biosignal/PoseFixeR"},
+        {"@type": "SoftwareSourceCode", "name": "synergyMixR", "codeRepository": "https://github.com/x-biosignal/synergyMixR"},
+        {"@type": "SoftwareSourceCode", "name": "PhysioTwin", "codeRepository": "https://github.com/x-biosignal/PhysioTwin"}
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
