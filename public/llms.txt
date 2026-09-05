@@ -1,0 +1,70 @@
+# x-biosignal
+
+> Open-source R packages for biosignal analysis and rehabilitation research.
+
+x-biosignal provides 37 public packages spanning data structures, acquisition,
+preprocessing, physiological signals, biomechanics, clinical inference,
+reproducibility, and reporting. R is the released implementation. Python and
+Nextflow extensions are in development.
+
+## Start
+
+- [Documentation portal](https://x-biosignal.github.io/)
+- [Quick Start](https://github.com/x-biosignal/PhysioExperiment#quick-start)
+- [R package index](https://x-biosignal.r-universe.dev/packages)
+- [MCP package catalog](https://github.com/x-biosignal/mcp-server-biosignal)
+- [Support](https://github.com/x-biosignal/PhysioExperiment/blob/main/SUPPORT.md)
+- [Governance](https://github.com/x-biosignal/PhysioExperiment/blob/main/GOVERNANCE.md)
+- [Citation](https://github.com/x-biosignal/PhysioExperiment#citation)
+
+## Acquisition and core
+
+- [PhysioExperiment](https://github.com/x-biosignal/PhysioExperiment)
+- [PhysioCore](https://github.com/x-biosignal/PhysioCore)
+- [PhysioCompliance](https://github.com/x-biosignal/PhysioCompliance)
+- [PhysioIO](https://github.com/x-biosignal/PhysioIO)
+- [PhysioPreprocess](https://github.com/x-biosignal/PhysioPreprocess)
+- [PhysioStream](https://github.com/x-biosignal/PhysioStream)
+- [PhysioDevices](https://github.com/x-biosignal/PhysioDevices)
+
+## Signals and neurophysiology
+
+- [PhysioAnalysis](https://github.com/x-biosignal/PhysioAnalysis)
+- [PhysioML](https://github.com/x-biosignal/PhysioML)
+- [PhysioNIRS](https://github.com/x-biosignal/PhysioNIRS)
+- [PhysioEEG](https://github.com/x-biosignal/PhysioEEG)
+- [PhysioEMG](https://github.com/x-biosignal/PhysioEMG)
+- [PhysioHDEMG](https://github.com/x-biosignal/PhysioHDEMG)
+- [PhysioNeurophys](https://github.com/x-biosignal/PhysioNeurophys)
+- [PhysioECG](https://github.com/x-biosignal/PhysioECG)
+- [PhysioEDA](https://github.com/x-biosignal/PhysioEDA)
+- [PhysioCrossModal](https://github.com/x-biosignal/PhysioCrossModal)
+- [PhysioNetPhysiology](https://github.com/x-biosignal/PhysioNetPhysiology)
+- [PhysioHeadModels](https://github.com/x-biosignal/PhysioHeadModels)
+
+## Movement and rehabilitation
+
+- [PhysioMoCap](https://github.com/x-biosignal/PhysioMoCap)
+- [PoseFixeR](https://github.com/x-biosignal/PoseFixeR)
+- [PhysioWearable](https://github.com/x-biosignal/PhysioWearable)
+- [PhysioOpenSim](https://github.com/x-biosignal/PhysioOpenSim)
+- [PhysioMSKNet](https://github.com/x-biosignal/PhysioMSKNet)
+- [synergyMixR](https://github.com/x-biosignal/synergyMixR)
+- [PhysioGaitNorm](https://github.com/x-biosignal/PhysioGaitNorm)
+
+## Data, pipelines, and reproducibility
+
+- [PhysioLake](https://github.com/x-biosignal/PhysioLake)
+- [PhysioPipe](https://github.com/x-biosignal/PhysioPipe)
+- [PhysioAppKit](https://github.com/x-biosignal/PhysioAppKit)
+- [PhysioRecipes](https://github.com/x-biosignal/PhysioRecipes)
+- [PhysioTwin](https://github.com/x-biosignal/PhysioTwin)
+
+## Clinical research and reporting
+
+- [PhysioTrial](https://github.com/x-biosignal/PhysioTrial)
+- [PhysioAnnotationHub](https://github.com/x-biosignal/PhysioAnnotationHub)
+- [PhysioClinical](https://github.com/x-biosignal/PhysioClinical)
+- [PhysioClinStats](https://github.com/x-biosignal/PhysioClinStats)
+- [PhysioRehab](https://github.com/x-biosignal/PhysioRehab)
+- [PhysioReport](https://github.com/x-biosignal/PhysioReport)
